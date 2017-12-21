@@ -164,7 +164,7 @@ ul li:nth-child(7){
 .deployed__news{
 	text-align: center;
 }
-.nav {
+.nav{
     margin-top: 22px;
     text-align: right;
     font-size: 13px;
@@ -209,4 +209,20 @@ ul li:nth-child(7){
 }
 .short__article__news a{
 	color: #d24260;
+}
+.user__clients span{
+	font-size: 16px;
+	padding-right: 11px;
+}
+.user__clients{
+	display: flex;
+}
+.user__clients span {
+    font-size: 16px;
+    padding-left: 11px;
+    margin: 8px;
+}
+.reviews__news a{
+	color: #d24260;
+	font-size: 13px;
 }
