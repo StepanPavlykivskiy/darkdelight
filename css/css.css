@@ -11,7 +11,7 @@
 }
 .row{
 	padding: 0px 20px;
-	background: #000000;
+	background: #1b1b1b;
 }
 .strip{
 	padding-bottom: 10px;
@@ -155,7 +155,7 @@ ul li:nth-child(7){
 .deployed__news__title{
 	font-size: 26px;
 	margin-bottom: 19px;
-	color: #fff;
+	color:#fff;
 }
 .deployed__news span{
 	font-size: 13px;
@@ -225,4 +225,129 @@ ul li:nth-child(7){
 .reviews__news a{
 	color: #d24260;
 	font-size: 13px;
+}
+.projects img{
+	width: 100%;
+}
+.projects__name a{
+	color: #d24260;
+}
+.a__strip{
+	height: 2px;
+	background:  #333333;
+}
+.a__strip__news{
+	background: #151513;
+	height: 3px;
+}
+.a__strip__fyter{
+	background: #373432;
+	height: 1px;
+}
+.fyter{
+	background: #201e1d;
+}
+.contact__detalis{
+	text-align: center;
+	padding-top: 30px;
+}
+.contact__detalis__title{
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 30px;
+}
+.contact__detalis span{
+	color: #999999;
+	font-size: 13px;
+	text-align: left;
+}
+.contact__detalis ul li a{
+	color: #999999;
+	text-align: center;
+}
+.quick__links{
+	text-align: center;
+	padding-top: 30px;
+}
+.quick__links__title{
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 30px;
+}
+.quick__links ul li a{
+	color: #999999;
+	display: flex;
+	justify-content: center;	
+}
+.quick__links ul li {
+	border-bottom: 1px solid #373432;  
+}
+.from__the__blog{
+	color: #999999;
+	padding-top: 30px;
+	text-align: center;
+}
+.from__the__blog__title{
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 30px;
+}
+.read__more{
+	text-align: right;
+	padding-top:17px;
+}
+.read__more a{
+	color: #d24260;
+}
+.from__title__subtitle{
+	font-size: 13px;
+	padding-bottom: 16px;
+}
+.from__title__subtitle span{
+	display: block;
+}
+.nave{
+	font-size: 12px;
+	text-align: center;
+}
+.grab__our__newsletter{
+	text-align: center;
+	padding-top:30px;
+	padding-bottom:35px;
+}
+.grab__our__newsletter__title{
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 30px;
+}
+.name input{
+	background: #2c2c2c;
+	height: 31px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.email input{
+	background: #2c2c2c;
+	height: 31px;
+	width: 100%;
+}
+.submit button{
+	font-size: 13px;
+	color: #d24260;
+	height: 31px;
+	background: #2c2c2c;
+	border-radius: 7px;
+	border:none;
+	cursor: pointer;
+	margin-top: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.info__fyter{
+	color: #737373;
+	text-align: center;
 }
