@@ -7,6 +7,7 @@
 	text-decoration: none;
 }
 .wrapper{
+	overflow: hidden;
 	
 }
 .row{
@@ -159,6 +160,9 @@ ul li:nth-child(7){
 	margin-bottom: 19px;
 	color:#fff;
 }
+.deployed__news__title span{
+	margin-bottom: 30px;
+}
 .deployed__news span{
 	font-size: 13px;
 	margin-bottom: 22px;
@@ -241,10 +245,12 @@ ul li:nth-child(7){
 .a__strip__news{
 	background: #151513;
 	height: 3px;
+	margin: 0px -30px;
 }
 .a__strip__fyter{
 	background: #373432;
 	height: 1px;
+	margin: 0px -30px;
 }
 .fyter{
 	background: #201e1d;
@@ -281,7 +287,9 @@ ul li:nth-child(7){
 .quick__links ul li a{
 	color: #999999;
 	display: flex;
-	justify-content: center;	
+	justify-content: center;
+	padding-bottom: 10px;
+	padding-top: 10px;	
 }
 .quick__links ul li {
 	border-bottom: 1px solid #373432;  
