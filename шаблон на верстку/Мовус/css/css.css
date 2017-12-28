@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+
+
+.band{
+	background: #3f4e86;
+	height: 5px;
+}
+.info{
+	background: #3f4e86;
+	margin-top:25px;
+	font-size: 13px;
+	font-family: Arial;
+	color: #fff;
+}
+.contact__info{
+	padding-top:10px;
+}
+.heder__menu{
+	width: auto;
+	margin: 0 auto;
+}
+.logo{
+	background: #ededed;
+	width: auto;
+}
+.info__text {
+    text-align: center;
+    padding: 12px 0px;
+}
+.experince{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.lastchlid-experince{
+	margin-bottom: 0px;
+}
+.lastchlid-sidebar{
+	margin-bottom: 0px;
+}
+.text-info{
+
+}
+.sidebar {
+    background: #e4e5e9;
+    list-style: none;
+    text-align: center;
+}
+.sidebar ul{
+    padding: 15px;
+}
+.sidebar li{
+    margin-bottom: 15px;
+    list-style: none;
+}
+.title__question{
+	color: #3f4e86;
+	font-size: 24px;
+}
+.experince{
+	background:url("../img/Слой 11.png") no-repeat center;
+}

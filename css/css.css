@@ -95,6 +95,7 @@ input[type="text"] {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    display: none;
 }
 .menu ul li a{
 	text-decoration: none;
@@ -109,6 +110,7 @@ input[type="text"] {
 .menu {
     text-transform: uppercase;
     background: linear-gradient( to bottom, #3a3839, #121212);
+    display: none;
 }
 .menu a:hover{
 	color: #d24260;
@@ -190,6 +192,8 @@ ul li:nth-child(7){
     margin-bottom: 30px;
     display: block;
     font-size: 26px;
+    margin-top:30px;
+
 }
 .short__article__news{
 	font-size: 13px;
@@ -208,6 +212,7 @@ ul li:nth-child(7){
 }
 .service{
 	text-align: left;
+	margin-bottom: 10px;
 }
 .clearfix:before,.clearfix:after{
 	content: "";
@@ -231,6 +236,10 @@ ul li:nth-child(7){
 .reviews__news a{
 	color: #d24260;
 	font-size: 13px;
+}
+.projects {
+    margin-bottom: 15px;
+    margin-top: 30px;
 }
 .projects img{
 	width: 100%;
@@ -361,3 +370,176 @@ ul li:nth-child(7){
 	color: #737373;
 	text-align: center;
 }
+
+.sidebar{
+	position: fixed;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	transition: .3s;
+	bottom: 0;
+	display: block;
+	background: #000;
+	z-index: 10;
+	opacity: 1;
+}
+.active{
+	left: 0;
+}
+.sidebar{
+	display: block;
+}
+.sidebar ul{
+	list-style: none;
+	margin: 0;
+	padding: 50px 0;
+	text-align: center;
+}
+.sidebar ul li a{
+	padding: 10px 20px;
+	color: #fff;
+	display:block;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(0,0,0,.2); 
+}
+.sidebarBtn{
+    position: absolute;
+    top: 0;
+    right: -50px;
+    cursor: pointer;
+    width: 22px;
+    height: 35px;
+
+}
+.toggle{
+	right:20px;
+}
+.sidebarBtn span{
+	display: block;
+	width: 20px;
+	height: 2px;
+	background: #894aa3;
+	position: absolute;
+	top: 24px;
+	transition: .3s;
+}
+
+.sidebarBtn span:before{
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #894aa3;
+	transition: .3s;
+}
+.sidebarBtn span:after{
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #894aa3;
+	transition: .3s;
+}
+.sidebarBtn.toggle span{
+	background: transparent;
+}
+.sidebarBtn.toggle span:before{
+	transform: rotate(45deg);
+	top: 0;
+}
+.sidebarBtn.toggle span:after{
+	transform: rotate(-45deg);
+	top: 0;
+}
+.menu__sidebar ul li a{
+	text-decoration: none;
+	list-style: none;
+	cursor: pointer;
+	color: #fff;
+}
+.menu__sidebar ul li{
+	margin-bottom: 10px;
+	text-align: center;
+}
+.menu__sidebar {
+    text-transform: uppercase;
+    background: linear-gradient( to bottom, #3a3839, #121212);
+}
+.menu__sidebar a:hover{
+	color: #d24260;
+}
+.search__sidebar button {
+    margin-left: -25px;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    border: none;
+    background: #000;
+    cursor: pointer;
+}
+.search__sidebar {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+ /*Додаткові пристрої (портретні телефони менше 576 пікселів)*/
+ /*Немає медіа-запиту, оскільки цей параметр є типовим у Bootstrap*/
+
+ /*Малі пристрої (пейзажні телефони, 576 пікселів і вище)*/
+@media screen and (min-width: 576px){
+	.col-phablet-1-2{
+		float: left;
+		width: 50%;
+	}
+	.short__article__news{
+		margin-left: 20px;
+		margin-top: 0px;
+	}
+	.service{
+		padding-left:20px;
+	}
+	.name input{
+		width: 215px;
+	}
+	.email input {
+		width: 215px;
+	}
+	.reviews__news__row{
+		text-align: center;
+	}
+	.user__clients {
+    	display: block;
+    	margin-bottom: 20px;
+	}
+	.service span{
+		margin-top: 2px;
+	}
+	.reviews__news{
+		margin-bottom: 30px;
+	}
+	.nav {
+		margin-top: 8px;
+	}
+	.search{
+		display: none;
+	}
+	.menu{
+		display: none;
+	}
+
+}
+
+/*// середні пристрої (планшети, 768 пікселів і вище)*/
+@media screen and (min-width: 768px) {...}
+
+/*// Великі пристрої (настільні комп'ютери, 992 пікселі і вище)*/
+@media screen and (min-width: 992px) {...}
+
+/*// надвеликі пристрої (великі настільні комп'ютери, 1200 пікселів і вище)*/
+@media screen and (min-width: 1200px) {...}
